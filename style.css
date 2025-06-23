@@ -1,5 +1,6 @@
+
 body {
-  background-color: #fff200; /* fond jaune uni */
+  background-color: #fff200;
   font-family: 'Comic Sans MS', cursive, sans-serif;
   color: #5c0032;
   margin: 0;
@@ -17,8 +18,16 @@ h1 {
   margin-bottom: 20px;
 }
 
+p {
+  font-size: 1.3em;
+  margin: 15px 0;
+  max-width: 80%;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+}
+
 button {
-  background-color: #ff007f;
   color: white;
   font-size: 1.2em;
   padding: 12px 24px;
@@ -29,15 +38,23 @@ button {
   transition: background-color 0.3s;
 }
 
-button:hover {
+.btn-blague {
+  background-color: #ff007f;
+}
+
+.btn-blague:hover {
   background-color: #e6006f;
 }
 
-p {
-  font-size: 1.3em;
-  margin: 15px 0;
-  max-width: 80%;
-  padding: 10px;
-  background-color: rgba(255,255,255,0.9);
-  border-radius: 8px;
+.btn-reponse {
+  background-color: #00bcd4;
+}
+
+.btn-reponse:hover {
+  background-color: #0097a7;
+}
+
+#answer,
+#btn-reponse {
+  display: none;
 }
