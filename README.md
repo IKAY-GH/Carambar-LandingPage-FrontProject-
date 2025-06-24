@@ -5,7 +5,7 @@ Cette mini-application affiche des blagues aléatoires depuis l’API Carambar.
 🔗 Liens utiles
 
 GitHub Pages : [https://ikay-gh.github.io/Carambar-LandingPage-FrontProject-/](https://ikay-gh.github.io/Carambar-LandingPage-FrontProject-/)
-API : [https://carambar-landingpage-backproject.onrender.com](https://carambar-landingpage-backproject.onrender.com)
+API : [https://github.com/IKAY-GH/Carambar-LandingPage-BackProject](https://github.com/IKAY-GH/Carambar-LandingPage-BackProject)
 
 ⚙️ Tech stack
 
@@ -17,6 +17,7 @@ API : [https://carambar-landingpage-backproject.onrender.com](https://carambar-l
 💡 Fonctionnalités
 
 - Un bouton "Afficher une blague"
+- Un bouton "Voir la réponse"
 - Appel `fetch` vers l’API déployée sur Render
 - Affichage dynamique de la question et de la réponse
 
