@@ -17,6 +17,7 @@ API : [https://carambar-landingpage-backproject.onrender.com](https://carambar-l
 💡 Fonctionnalités
 
 - Un bouton "Afficher une blague"
+- Un bouton "Voir la réponse"
 - Appel `fetch` vers l’API déployée sur Render
 - Affichage dynamique de la question et de la réponse
 
